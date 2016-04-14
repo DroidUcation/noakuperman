@@ -33,6 +33,5 @@
         android:layout_height="wrap_content"
         android:text="Read ->"
         android:id="@+id/button"
-        android:onClick="readClicked"
         />
 </LinearLayout>
