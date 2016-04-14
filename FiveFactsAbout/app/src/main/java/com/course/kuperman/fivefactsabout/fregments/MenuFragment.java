@@ -31,15 +31,11 @@ public class MenuFragment extends Fragment implements View.OnClickListener {
 
         view = inflater.inflate(R.layout.menu,container,false);
         if(savedInstanceState == null) {
-            /*frag = new FirstFactFragment();
-            fragTransaction = getFragmentManager().beginTransaction().add(R.id.container, frag);
-            fragTransaction.commit();*/
 
 
             Button btnFirst = (Button) view.findViewById(R.id.firstbtn);
             btnFirst.setOnClickListener(this);
             onClick(btnFirst);
-            //setBtnColor(R.id.secondbtn, btnFirst);
 
             Button btnSec = (Button) view.findViewById(R.id.secondbtn);
             btnSec.setOnClickListener(this);
