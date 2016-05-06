@@ -19,6 +19,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".FactsActivity"></activity>
+        <provider
+            android:name="com.course.kuperman.fivefactsabout.db.FiveFactsProvider"
+            android:authorities="com.course.kuperman.fivefactsabout.db.FiveFactsProvider"
+            />
     </application>
 
 </manifest>

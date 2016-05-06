@@ -20,6 +20,6 @@ tools:context="com.course.kuperman.fivefactsabout.fregments.FirstFactFragment">
         android:id="@+id/txtView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fact_two" />
+         />
 
 </LinearLayout>
