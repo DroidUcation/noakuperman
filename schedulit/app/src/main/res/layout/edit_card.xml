@@ -1,0 +1,85 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <com.android.ex.chips.RecipientEditTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recipentEditTextView"/>
+
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Interval:"/>
+
+               <android.support.v7.widget.AppCompatSpinner
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/spinner"/>
+
+
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Active:"/>
+
+               <CheckBox
+                   android:id="@+id/checkBox_alarm_active"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:focusable="false"
+                   android:padding="5dp" />
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:layoutDirection="rtl">
+           <Button
+               android:layout_width="50dp"
+               android:layout_height="wrap_content"
+               android:text="save"
+               android:id="@+id/btnsave"/>
+           <Button
+               android:layout_width="50dp"
+               android:layout_height="wrap_content"
+               android:text="cancle"
+               android:id="@+id/btncancle" />
+       </LinearLayout>
+   </LinearLayout>
+</android.support.v7.widget.CardView>
