@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FiveFactsAbout</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fact_one">The Android operating system was developed by Android Inc., in 2004 backed by Google. Later Google bought it in 2005 at a price of $50 million</string>
+    <string name="fact_two">HTC Dream or T_Mobile G1 is the first ever smartphone to run on the Android operating system, this mobile phone was released in the year 2008.</string>
+    <string name="fact_three">Android operating system has been released in a lot of versions, where every release has been following an alphabetical order in naming.</string>
+    <string name="fact_four">Android is Andy Rubin who is the co-creator of Android, it was the name given to him at Apple before joining Google, for his obsession and love for robots.</string>
+    <string name="fact_five">Most of the people think that the name of Android’s logo character is also Android, but its not true.  The actual name of Android Mascot is Bugdroid, though this is not official, Google team call it by this name.</string>
+</resources>
